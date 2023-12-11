@@ -1,10 +1,5 @@
 import wave
-
-import inline
-import matplotlib
-import np
 import numpy as np
-from numpy import argmin
 from pydub import AudioSegment
 import os
 
@@ -55,4 +50,3 @@ def convert_to_wav(input_file):
     except Exception as e:
         print(f"Error converting file to .wav: {e}")
         return None
-
